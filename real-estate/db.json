@@ -1,0 +1,60 @@
+{
+  "properties": [
+    {
+      "id": "2",
+      "title": "Runda Garden Villa",
+      "location": "Runda, Nairobi",
+      "type": "Villa",
+      "status": "Under Offer",
+      "price": 78000000,
+      "beds": 5,
+      "baths": 5,
+      "area": 5200,
+      "image": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?auto=format&fit=crop&w=1200&q=80",
+      "agent": "kerry",
+      "description": "A private family villa set on a mature garden with generous entertaining spaces, staff quarters, a home office, and a quiet cul-de-sac address."
+    },
+    {
+      "id": "3",
+      "title": "Westlands Executive Loft",
+      "location": "Westlands, Nairobi",
+      "type": "Apartment",
+      "status": "Rented",
+      "price": 24000000,
+      "beds": 2,
+      "baths": 2,
+      "area": 1280,
+      "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+      "agent": "Gideon",
+      "description": "A furnished loft designed for corporate tenants, featuring double-height glazing, concierge access, backup power, and fast links to Waiyaki Way."
+    },
+    {
+      "id": "4",
+      "title": "Lavington Courtyard House",
+      "location": "Lavington, Nairobi",
+      "type": "Townhouse",
+      "status": "Available",
+      "price": 42500000,
+      "beds": 4,
+      "baths": 4,
+      "area": 3100,
+      "image": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1200&q=80",
+      "agent": "Hashim",
+      "description": "A secure townhouse with a private courtyard, modern kitchen, family room, rooftop terrace, and easy access to Lavington shopping routes."
+    },
+    {
+      "id": "5",
+      "title": "Karen Stone Maisonette",
+      "location": "Karen, Nairobi",
+      "type": "Maisonette",
+      "status": "Sold",
+      "price": 56000000,
+      "beds": 4,
+      "baths": 3,
+      "area": 3900,
+      "image": "https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1200&q=80",
+      "agent": "Jairus",
+      "description": "A character maisonette with stone detailing, open garden frontage, detached staff quarters, and a peaceful address near Karen amenities."
+    }
+  ]
+}
