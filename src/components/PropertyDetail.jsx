@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
-
-const API_URL = 'http://localhost:3001/properties'
+import { propertiesApi } from '../services/propertiesApi'
 
 function PropertyDetail() {
   const { id } = useParams()
@@ -11,15 +10,14 @@ function PropertyDetail() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    fetch(`${API_URL}/${id}`)
-      .then(res => res.json())
+    propertiesApi.getOne(id)
       .then(data => { setProperty(data); setLoading(false) })
       .catch(() => { setError('Property not found'); setLoading(false) })
   }, [id])
 
   const handleDelete = async () => {
     if (!confirm('Delete this property?')) return
-    await fetch(`${API_URL}/${id}`, { method: 'DELETE' })
+    await propertiesApi.delete(id)
     navigate('/')
   }
 

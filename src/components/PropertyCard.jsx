@@ -1,4 +1,4 @@
-import { formatCurrency, propertySpecs } from '../utils.js'
+import { formatCurrency, propertySpecs } from '../services/utils.js'
 
 function PropertyCard({ navigate, onEdit, property }) {
   return (

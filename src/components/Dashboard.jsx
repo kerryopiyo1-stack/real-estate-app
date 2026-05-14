@@ -1,18 +1,6 @@
-// Dashboard component - Main landing page showing portfolio overview
-// Displays featured properties, portfolio statistics, and quick action buttons
-
 import PropertyCard from './PropertyCard.jsx'
-import { formatCurrency } from '../utils.js'
+import { formatCurrency } from '../services/utils.js'
 
-/**
- * Dashboard Component
- * Shows portfolio overview with statistics and featured properties
- * @param {boolean} loading - Whether properties are still loading
- * @param {Array} properties - Array of all property objects
- * @param {function} navigate - Navigation function to change routes
- * @param {function} onEdit - Callback to handle property edit action
- * @param {function} onDelete - Callback to handle property delete action
- */
 function Dashboard({ loading, properties, navigate, onEdit, onDelete }) {
   // Calculate portfolio statistics
   const totalValue = properties.reduce((sum, property) => sum + property.price, 0)

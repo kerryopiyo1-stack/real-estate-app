@@ -42,5 +42,7 @@
       "agent": "Gideon Muuo",
       "description": "Spacious bungalow in Kileleshwa."
     }
-  ]
+   
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

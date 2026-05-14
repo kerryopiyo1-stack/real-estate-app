@@ -53,7 +53,6 @@ function PropertyForm() {
         <div className="form-hero-text">
           <span>{isEditing ? 'Update' : 'Create'}</span>
           <h2>List a prime residence</h2>
-          <p>Capture the details buyers need first: neighborhood, price, availability, imagery, and agent ownership.</p>
         </div>
       </div>
 

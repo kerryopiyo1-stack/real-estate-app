@@ -1,20 +1,9 @@
-// Navigation bar component for the application
-// Displays the brand name and navigation links to different pages
-
-// Navigation items configuration
-// Each item has a path, label for display, and route identifier
 const navItems = [
   { path: '/', label: 'Overview', route: 'dashboard' },
   { path: '/properties', label: 'Residences', route: 'properties' },
   { path: '/sell', label: 'New Listing', route: 'sell' },
 ]
 
-/**
- * Navbar Component
- * Displays the application header with brand and navigation links
- * @param {string} activeRoute - The currently active route name for highlighting
- * @param {function} navigate - Callback function to navigate to a different route
- */
 function Navbar({ activeRoute, navigate }) {
   /**
    * Handles navigation click events
@@ -54,4 +43,3 @@ function Navbar({ activeRoute, navigate }) {
 }
 
 export default Navbar
-N
