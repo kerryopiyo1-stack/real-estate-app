@@ -1,1 +1,46 @@
-{"properties":[{"id":"1","title":"Modern Villa","location":"Nairobi, Karen","price":25000000,"type":"Sale","status":"Available","beds":4,"baths":3,"area":320,"image":"https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800","agent":"Kerry Opiyo","description":"A stunning modern villa in Karen."},{"id":"2","title":"Cozy Apartment","location":"Nairobi, Westlands","price":8500000,"type":"Sale","status":"Available","beds":2,"baths":1,"area":95,"image":"https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800","agent":"Jairus Mwangi","description":"A cozy apartment in Westlands."},{"id":"3","title":"Family Bungalow","location":"Nairobi, Kileleshwa","price":150000,"type":"Rent","status":"Available","beds":3,"baths":2,"area":180,"image":"https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800","agent":"Gideon Muuo","description":"Spacious bungalow in Kileleshwa."}]}
+{
+  "properties": [
+    {
+      "id": "1",
+      "title": "Modern Villa",
+      "location": "Nairobi, Karen",
+      "price": 25000000,
+      "type": "Sale",
+      "status": "Available",
+      "beds": 4,
+      "baths": 3,
+      "area": 320,
+      "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800",
+      "agent": "Kerry Opiyo",
+      "description": "A stunning modern villa in Karen."
+    },
+    {
+      "id": "2",
+      "title": "Cozy Apartment",
+      "location": "Nairobi, Westlands",
+      "price": 8500000,
+      "type": "Sale",
+      "status": "Available",
+      "beds": 2,
+      "baths": 1,
+      "area": 95,
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=800",
+      "agent": "Jairus Mwangi",
+      "description": "A cozy apartment in Westlands."
+    },
+    {
+      "id": "3",
+      "title": "Family Bungalow",
+      "location": "Nairobi, Kileleshwa",
+      "price": 150000,
+      "type": "Rent",
+      "status": "Available",
+      "beds": 3,
+      "baths": 2,
+      "area": 180,
+      "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
+      "agent": "Gideon Muuo",
+      "description": "Spacious bungalow in Kileleshwa."
+    }
+  ]
+}
