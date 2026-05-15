@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { propertiesApi } from '../services/propertiesApi'
 
-function PropertyForm() {
+function PropertyForm({ onSave }) {
   const navigate = useNavigate()
   const { id } = useParams()
   const isEditing = Boolean(id)
@@ -37,6 +37,7 @@ function PropertyForm() {
       } else {
         await propertiesApi.create(formData)
       }
+      if (onSave) onSave()
       navigate('/')
     } catch {
       setError('Failed to save property')

@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Modern Villa",
       "location": "Nairobi, Karen",
-      "price": 25000000,
+      "price": 250000,
       "type": "Sale",
       "status": "Available",
       "beds": 4,
@@ -18,7 +18,7 @@
       "id": "2",
       "title": "Cozy Apartment",
       "location": "Nairobi, Westlands",
-      "price": 8500000,
+      "price": 85000,
       "type": "Sale",
       "status": "Available",
       "beds": 2,
@@ -32,7 +32,7 @@
       "id": "3",
       "title": "Family Bungalow",
       "location": "Nairobi, Kileleshwa",
-      "price": 150000,
+      "price": 15000,
       "type": "Rent",
       "status": "Available",
       "beds": 3,
@@ -41,8 +41,21 @@
       "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800",
       "agent": "Gideon Muuo",
       "description": "Spacious bungalow in Kileleshwa."
+    },
+    {
+      "title": "Home",
+      "location": "KIlimani",
+      "price": "120000",
+      "type": "Sale",
+      "status": "Available",
+      "beds": "16",
+      "baths": "32",
+      "area": "234",
+      "image": "",
+      "agent": "Angela",
+      "description": "Welcome home",
+      "id": "fjO6BULyuI0"
     }
-   
   ],
   "$schema": "./node_modules/json-server/schema.json"
 }

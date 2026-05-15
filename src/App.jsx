@@ -24,10 +24,13 @@ function AppContent() {
     : location.pathname.startsWith('/sell') || location.pathname.startsWith('/edit') ? 'sell'
     : ''
  
+  const loadProperties = () => {
+  propertiesApi.getAll()
+    .then((data) => { setProperties(data); setLoading(false) })
+    .catch(() => { setError('Could not connect to the API. Is json-server running?'); setLoading(false) })
+  }
   useEffect(() => {
-    propertiesApi.getAll()
-      .then((data) => { setProperties(data); setLoading(false) })
-      .catch(() => { setError('Could not connect to the API. Is json-server running?'); setLoading(false) })
+    loadProperties()
   }, [])
  
   const handleEdit = (property) => {
@@ -82,9 +85,9 @@ function AppContent() {
             }
           />
           <Route path="/properties/:id" element={<PropertyDetail />} />
-          <Route path="/properties/new" element={<PropertyForm />} />
-          <Route path="/properties/edit/:id" element={<PropertyForm />} />
-          <Route path="/sell" element={<PropertyForm />} />
+          <Route path="/properties/new" element={<PropertyForm onSave={loadProperties} />} />
+          <Route path="/properties/edit/:id" element={<PropertyForm onSave={loadProperties} />} />
+          <Route path="/sell" element={<PropertyForm onSave={loadProperties} />} />
         </Routes>
       </main>
     </>
