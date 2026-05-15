@@ -37,13 +37,7 @@ function Dashboard({ loading, properties, navigate, onEdit, onDelete }) {
             </button>
           </div>
         </div>
-        {/* Market indicators showing main neighborhoods */}
-        <div className="market-strip" aria-label="Market summary">
-          <span>Westlands</span>
-          <span>Kilimani</span>
-          <span>Runda</span>
-          <span>Lavington</span>
-        </div>
+       
       </section>
 
       {/* Portfolio statistics section */}
