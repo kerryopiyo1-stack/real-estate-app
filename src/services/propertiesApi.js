@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3001/properties';
+const API_URL = 'https://real-estate-app-u31p.onrender.com';
 
 export const propertiesApi = {
   getAll: () => fetch(API_URL).then(res => res.json()),
