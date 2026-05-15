@@ -1,4 +1,4 @@
-const API_URL = 'https://real-estate-app-u31p.onrender.com';
+const API_URL = 'https://real-estate-app-5-bg0z.onrender.com';
 
 export const propertiesApi = {
   getAll: () => fetch(API_URL).then(res => res.json()),
